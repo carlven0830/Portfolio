@@ -1,0 +1,177 @@
+.slider-container {
+  width: 100%;
+  margin: auto;
+  /*margin-top: 56px;*/
+}
+
+.slider-wrapper {
+  width: 600px;
+  margin-left: auto;
+  padding-right: 180px;
+  text-align: justify;
+}
+
+.slider-wrapper span {
+  color: #ffa000;
+}
+
+.image-container {
+  width: 50%;
+}
+
+.slider-image {
+  width: 100%;
+  height: 94vh;
+  object-fit: cover;
+  display: block;
+}
+
+.slider-intro {
+  height: 100%;
+  background: #fff;
+}
+
+.slider-wrapper h1 {
+  font-size: 3.6em;
+}
+
+.slider-wrapper h2 {
+  font-size: 2.2em;
+  color: #ffa000;
+}
+
+.slider-wrapper h1,
+.slider-wrapper h2 {
+  margin: 0;
+}
+
+.slider-space {
+  height: 10px;
+}
+
+.slider-space2 {
+  height: 25px;
+}
+
+.slider-space3 {
+  height: 40px;
+}
+
+.slider-text {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.slider-button-wrapper {
+  width: 85%;
+}
+
+.slider-btn-space {
+  width: 30px;
+}
+
+.slider-btn {
+  border: 2px solid #ffa000;
+  border-radius: 2px;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 14px 38px;
+  background: #fff;
+  transition: all 1s ease;
+}
+
+.slider-btn span {
+  position: relative;
+  color: #ffa000;
+  z-index: 1;
+  transition: all 1s ease;
+}
+
+.slider-btn:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 400%;
+  width: 152%;
+  background: #ffa000;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+  transform: translateX(-98%) translateY(-25%) rotate(45deg);
+}
+
+.slider-btn:hover {
+  border: 2px solid #ffa000;
+  transition: all 0.5s ease;
+}
+
+.slider-btn:hover span {
+  color: #fff;
+  transition: all 0.5s ease;
+}
+
+.slider-btn:hover:after {
+  -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  transform: translateX(-9%) translateY(-25%) rotate(45deg);
+}
+
+.slider-btn2 {
+  border: 2px solid #ffa000;
+  border-radius: 2px;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 14px 38px;
+  background: #ffa000;
+  transition: all 1s ease;
+}
+
+.slider-btn2 span {
+  position: relative;
+  color: #fff;
+  z-index: 1;
+  transition: all 1s ease;
+}
+
+.slider-btn2:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 400%;
+  width: 152%;
+  background: #fff;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+  transform: translateX(-98%) translateY(-25%) rotate(45deg);
+}
+
+.slider-btn2:hover {
+  border: 2px solid #ffa000;
+  transition: all 0.5s ease;
+}
+
+.slider-btn2:hover span {
+  color: #ffa000;
+  transition: all 0.5s ease;
+}
+
+.slider-btn2:hover:after {
+  -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  transform: translateX(-9%) translateY(-25%) rotate(45deg);
+}

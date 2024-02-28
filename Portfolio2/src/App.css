@@ -1,0 +1,33 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+}
+
+table {
+  border: 0;
+  border-spacing: 0;
+}
+
+td {
+  padding: 0;
+}
+
+.section-title {
+  padding-bottom: 35px;
+}
+
+.section-title2 {
+  padding-top: 40px;
+  padding-bottom: 5px;
+}
+
+.section-title h1 {
+  margin: 0;
+  color: #00003b;
+}
+
+.section-title2 h3 {
+  margin: 0;
+  color: #ffa000;
+  text-align: center;
+}

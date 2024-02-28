@@ -1,0 +1,278 @@
+.about-background {
+  width: 100%;
+  height: 710px;
+  margin: auto;
+  background-color: #ccffff;
+}
+
+.about-container {
+  width: 1200px;
+  margin: auto;
+}
+
+.about-info {
+  width: 65%;
+  padding-left: 100px;
+}
+
+.about-info .intro-content {
+  text-align: justify;
+  font-size: 18px;
+  font-weight: 600;
+}
+.about-image {
+  position: relative;
+}
+
+.about-image img {
+  position: relative;
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  transition: 1s ease;
+  border-radius: 30px;
+  -ms-transform: rotateZ(10deg);
+  transform: rotateZ(10deg);
+  z-index: 2;
+}
+
+.about-image-background {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 420px;
+  background-color: #ffa000;
+  border-radius: 30px;
+  z-index: 1;
+}
+
+.about-image img:hover {
+  -webkit-transform: rotateZ(0deg);
+  -ms-transform: rotateZ(0deg);
+  transform: rotateZ(0deg);
+  transition: 1s ease;
+}
+
+.body-info-wrapper,
+.body-info-wrapper2,
+.exp-year-wrapper,
+.circle-verticle-wrapper,
+.comp-logo {
+  width: 100%;
+  margin: auto;
+}
+
+.body-info-content {
+  width: 100%;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+.body-info-option {
+  width: 66%;
+  padding-bottom: 25px;
+}
+
+.body-info-title h2 {
+  font-size: 1.4em;
+  margin: 0;
+}
+
+.body-info-wrapper2 h2 {
+  margin: 0;
+}
+
+.body-info-title {
+  padding: 3px 15px;
+}
+
+.body-info-title:hover {
+  background-color: #00003b;
+  border-radius: 3px;
+  color: #fff;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #00003b;
+  border-radius: 3px;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.shape {
+  stroke-dasharray: 0 150 130 210 130 20;
+  stroke-dashoffset: 0;
+  stroke-width: 8px;
+  fill: transparent;
+  stroke: #00003b;
+  border-bottom: 5px solid black;
+  transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+  width: 100%;
+  height: 155px;
+}
+
+.body-info-width:hover .shape {
+  stroke-width: 4px;
+  stroke-dashoffset: 0;
+  stroke-dasharray: 741;
+}
+
+.body-info-space {
+  width: 13%;
+}
+
+.about-info .body-info-width {
+  width: 32%;
+  position: relative;
+  text-align: center;
+}
+
+.about-info .body-info-width2 {
+  width: 2%;
+}
+
+.about-info .body-info-box {
+  font-weight: 600;
+  position: absolute;
+  top: 48%;
+  transform: translateY(-50%);
+  border: 5px solid #ccffff;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.body-info-box img {
+  width: 56px;
+  height: 56px;
+}
+
+.body-info-box .title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.exp-year {
+  width: 13%;
+}
+
+.exp-year-shape {
+  position: relative;
+}
+
+.circle-verticle {
+  width: 5%;
+  padding-top: 5px;
+}
+
+.exp-year-rectangle {
+  height: 40px;
+  width: 100%;
+  background-color: #00003b;
+}
+
+.exp-year-triangle {
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-left: 15px solid #00003b;
+  border-bottom: 20px solid transparent;
+}
+
+.exp-year-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.exp-year-vspace {
+  height: 5px;
+}
+
+.circle-padding {
+  padding-bottom: 10px;
+}
+
+.circle-shape {
+  height: 30px;
+  width: 30px;
+  background-color: #ffa000;
+  border-radius: 50%;
+}
+
+.vline {
+  width: 3px;
+  height: 160px;
+  background-color: #00003b;
+}
+
+.experience-space {
+  width: 2%;
+}
+
+.position-wrapper {
+  width: 100%;
+  margin: auto;
+  text-align: justify;
+}
+
+.company {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.description {
+  font-weight: 600;
+}
+
+.description ul {
+  margin: 0;
+}
+
+.comp-wrapper {
+  width: 50%;
+  font-weight: 600;
+}
+
+.comp-vline {
+  width: 3px;
+  height: 40px;
+  background-color: #00003b;
+}
+
+.comp-vline2 {
+  width: 3px;
+  height: 35px;
+  background-color: #00003b;
+}
+
+.comp-circle {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: #00003b;
+}
+
+.comp-title {
+  height: 35px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #00003b;
+}
+
+.comp-circle-image img {
+  padding-top: 7px;
+}
+
+.comp-wrapper ul {
+  margin: 0;
+}

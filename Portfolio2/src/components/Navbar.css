@@ -1,0 +1,82 @@
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: 0.6s;
+  background-color: #00003b;
+  z-index: 100000;
+}
+
+.navbar {
+  width: 1200px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.myLogo {
+  position: relative;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+}
+
+.myLogo img {
+  padding-right: 10px;
+}
+
+.navbar .menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 56px;
+}
+
+.navbar .menu .menu-item {
+  position: relative;
+  height: 100%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.navbar .menu .menu-item .menu-link {
+  position: relative;
+  margin: 0 15px;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 0 4px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.navbar .menu .menu-item .menu-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  bottom: -2px;
+  transition: 0.3s;
+}
+
+.navbar .menu .menu-item .menu-link:hover::after {
+  width: 100%;
+}
+
+.navbar .menu .menu-item .menu-link.active::after {
+  width: 100%;
+}
