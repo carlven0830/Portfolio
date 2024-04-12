@@ -1,0 +1,145 @@
+.skill-background {
+  width: 100%;
+  margin: auto;
+  background-color: #ccffff;
+}
+
+.skill-container {
+  width: 1200px;
+  margin: auto;
+  padding-bottom: 60px;
+}
+
+.skill-wrapper {
+  width: 100%;
+  margin: auto;
+}
+
+.computing-skill {
+  width: 258px;
+  height: 258px;
+}
+
+.computing-skill-vspace {
+  height: 40px;
+}
+
+.computing-skill-space {
+  width: 40px;
+}
+
+.computing-skill-type {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+  background-color: #f0ffff;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.computing-skill-type img {
+  padding-bottom: 10px;
+}
+
+.computing-skill-type .title {
+  font-size: 22px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+.computing-skill-type .text {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/*border hover effect*/
+.computing-snipper {
+  position: relative;
+  overflow: hidden;
+  margin: 0 0 0 -6px;
+  padding: 6px;
+  width: 100%;
+  height: 100%;
+  box-shadow: none !important;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-box-sizing: padding-box;
+  box-sizing: padding-box;
+}
+
+.computing-snipper .border {
+  position: absolute;
+  opacity: 0.45;
+}
+
+.computing-snipper .border:before,
+.computing-snipper .border:after,
+.computing-snipper .border div:before,
+.computing-snipper .border div:after {
+  background-color: #00003b;
+  position: absolute;
+  content: "";
+  display: block;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.computing-snipper .border:before,
+.computing-snipper .border:after {
+  width: 0;
+  height: 2px;
+}
+.computing-snipper .border div:before,
+.computing-snipper .border div:after {
+  width: 2px;
+  height: 0;
+}
+
+.computing-snipper .border.one {
+  left: 0;
+  top: 0;
+  right: 12px;
+  bottom: 12px;
+}
+.computing-snipper .border.one:before,
+.computing-snipper .border.one div:before {
+  left: 0;
+  top: 0;
+}
+.computing-snipper .border.one:after,
+.computing-snipper .border.one div:after {
+  bottom: 0;
+  right: 0;
+}
+
+.computing-snipper .border.two {
+  left: 12px;
+  top: 12px;
+  right: 0;
+  bottom: 0;
+}
+.computing-snipper .border.two:before,
+.computing-snipper .border.two div:before {
+  right: 0;
+  top: 0;
+}
+.computing-snipper .border.two:after,
+.computing-snipper .border.two div:after {
+  bottom: 0;
+  left: 0;
+}
+
+.computing-snipper:hover .border:before,
+.computing-snipper.hover .border:before,
+.computing-snipper:hover .border:after,
+.computing-snipper.hover .border:after {
+  width: 100%;
+}
+.computing-snipper:hover .border div:before,
+.computing-snipper.hover .border div:before,
+.computing-snipper:hover .border div:after,
+.computing-snipper.hover .border div:after {
+  height: 100%;
+}
